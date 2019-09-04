@@ -1,0 +1,91 @@
+Sub AlphaMod():
+	
+	' math is wrong, can't find error origin or how to fix 
+	' must be in startVol, endVol, or yearopenrow 
+        
+        ' set ticker name
+        Dim nameTicker As String
+        
+        ' set total volume
+        Dim totVol As Double
+            totVol = 0
+        
+        ' set start value
+        Dim startVol As Long
+        
+        ' set end value
+        Dim endVol As Double
+            
+        ' set change value
+        Dim change As Double
+        
+        ' set last row
+        Dim lastRow As Long
+            lastRow = Cells(Rows.Count, 1).End(xlUp).Row
+        
+        ' year open row
+        Dim yearopenrow As Long
+            yearopenrow = 2
+        
+        ' set percent
+        Dim percent As Integer
+        
+        ' set total location
+        Dim SummaryTable As Integer
+            SummaryTable = 2
+        
+        Range("I1").Value = "Ticker Name"
+        Range("J1").Value = "Yearly Change"
+        Range("K1").Value = "Percent Change"
+        Range("L1").Value = "Total Stock Volume"
+    
+    For i = 2 To lastRow
+            
+            ' if new ticker name then
+            If Cells(i + 1, 1).Value <> Cells(i, 1).Value Then
+                
+                ' pull name value
+                nameTicker = Cells(i, 1).Value
+
+                ' set start volume
+                startVol = Cells(yearopenrow, 3).Value
+                
+                ' set end volume
+                endVol = Cells(i + 1, 6).Value
+                
+                ' calculate change
+                change = endVol - startVol
+                
+                ' calculate percent
+                percent = (endVol - startVol) / endVol
+                    ' skips last i when active
+
+                ' set table location name
+                Range("I" & SummaryTable).Value = nameTicker
+                ' set table location subtract
+                Range("J" & SummaryTable).Value = change
+                ' set table location percent
+                Range("K" & SummaryTable).Value = percent
+                ' set table location total
+                Range("L" & SummaryTable).Value = totVol
+
+                ' add one to row
+                SummaryTable = SummaryTable + 1
+                
+                ' reset total
+                totVol = 0
+        
+            Else
+                totVol = totVol + Cells(i + 1, 7).Value
+            
+            End If
+        
+        Next i
+        
+    For Each sht In ThisWorkbook.Worksheets
+    sht.Cells.EntireColumn.AutoFit
+    Next sht
+    
+End Sub
+
+
