@@ -1,0 +1,50 @@
+Sub AlphaEasy():
+
+        ' set last row
+        Dim LastRow As Long
+        LastRow = Cells(Rows.Count, 1).End(xlUp).Row
+        
+        ' set ticker name
+        Dim nameTicker As String
+        
+        ' set total volume
+        Dim totVol As Double
+            totVol = 0
+        
+        ' set total location
+        Dim SummaryTable As Integer
+        SummaryTable = 2
+        
+        Range("I1").Value = "Ticker"
+        Range("J1").Value = "Total Stock Volume"
+        
+    For I = 2 To LastRow
+    
+            If Cells(I + 1, 1).Value <> Cells(I, 1).Value Then
+                ' then name
+                nameTicker = Cells(I, 1).Value
+                ' then volume
+                totVol = totVol + Cells(I, 7).Value
+                
+                ' set table location name
+                Range("I" & SummaryTable).Value = nameTicker
+                ' set table location volume
+                Range("J" & SummaryTable).Value = totVol
+
+                ' add one to row
+                SummaryTable = SummaryTable + 1
+                ' reset total
+                totVol = 0
+        
+            Else
+                totVol = totVol + Cells(I, 7).Value
+            
+            End If
+        
+        Next I
+
+        For Each sht In ThisWorkbook.Worksheets
+        sht.Cells.EntireColumn.AutoFit
+        Next sht
+    
+End Sub
