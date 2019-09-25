@@ -1,0 +1,136 @@
+# Don't track content of these folders /
+node_modules/
+spark-warehouse/
+
+# Word temporary
+~$*.doc*
+
+# Excel temporary
+~$*.xls*
+
+# Excel Backup File
+*.xlk
+
+# PowerPoint temporary
+~$*.ppt*
+
+# Visio autosave temporary files
+*.~vsd*
+
+### Python ###
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Compiled source #
+###################
+*.com
+*.class
+*.exe
+*.o
+*.so
+*.config
+*.swp
+
+# Packages #
+############
+# it's better to unpack the files
+# and commit the raw source git has
+# its own built in compression methods
+
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+config.py
+config.json
+
+# Translations
+*.mo
+*.pot
+
+# Django stuff:
+*.log
+local_settings.py
+db.sqlite3
+
+# Flask stuff:
+instance/
+.webassets-cache
+
+# Scrapy stuff:
+.scrapy
+
+# Sphinx documentation
+docs/_build/
+
+# PyBuilder
+target/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# IPython
+profile_default/
+ipython_config.py
+
+# pyenv
+.python-version
+
+# celery beat schedule file
+celerybeat-schedule
+
+# SageMath parsed files
+*.sage.py
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Spyder project settings
+.spyderproject
+.spyproject
+
+# Rope project settings
+.ropeproject
+
+# mkdocs documentation
+/site
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre type checker
+.pyre/
+
+### Python Patch ###
+.venv/
