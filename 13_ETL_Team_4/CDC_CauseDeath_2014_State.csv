@@ -1,0 +1,367 @@
+Notes,State,State Code,Drug/Alcohol Induced Cause,Drug/Alcohol Induced Cause Code,Deaths,Population,Crude Rate
+,Alabama,1,Drug poisonings (overdose) Unintentional (X40-X44),D1,639,Not Applicable,Not Applicable
+,Alabama,1,Drug poisonings (overdose) Suicide (X60-X64),D2,50,Not Applicable,Not Applicable
+,Alabama,1,Drug poisonings (overdose) Undetermined (Y10-Y14),D4,33,Not Applicable,Not Applicable
+,Alabama,1,All other drug-induced causes,D9,77,Not Applicable,Not Applicable
+,Alabama,1,"Alcohol poisonings (overdose) (X45, X65, Y15)",A1,22,Not Applicable,Not Applicable
+,Alabama,1,All other alcohol-induced causes,A9,288,Not Applicable,Not Applicable
+,Alabama,1,All other non-drug and non-alcohol causes,O9,49105,Not Applicable,Not Applicable
+,Alaska,2,Drug poisonings (overdose) Unintentional (X40-X44),D1,103,Not Applicable,Not Applicable
+,Alaska,2,Drug poisonings (overdose) Suicide (X60-X64),D2,16,Not Applicable,Not Applicable
+,Alaska,2,"Alcohol poisonings (overdose) (X45, X65, Y15)",A1,29,Not Applicable,Not Applicable
+,Alaska,2,All other alcohol-induced causes,A9,110,Not Applicable,Not Applicable
+,Alaska,2,All other non-drug and non-alcohol causes,O9,3862,Not Applicable,Not Applicable
+,Arizona,4,Drug poisonings (overdose) Unintentional (X40-X44),D1,934,Not Applicable,Not Applicable
+,Arizona,4,Drug poisonings (overdose) Suicide (X60-X64),D2,166,Not Applicable,Not Applicable
+,Arizona,4,Drug poisonings (overdose) Undetermined (Y10-Y14),D4,110,Not Applicable,Not Applicable
+,Arizona,4,All other drug-induced causes,D9,63,Not Applicable,Not Applicable
+,Arizona,4,"Alcohol poisonings (overdose) (X45, X65, Y15)",A1,86,Not Applicable,Not Applicable
+,Arizona,4,All other alcohol-induced causes,A9,1084,Not Applicable,Not Applicable
+,Arizona,4,All other non-drug and non-alcohol causes,O9,49094,Not Applicable,Not Applicable
+,Arkansas,5,Drug poisonings (overdose) Unintentional (X40-X44),D1,251,Not Applicable,Not Applicable
+,Arkansas,5,Drug poisonings (overdose) Suicide (X60-X64),D2,45,Not Applicable,Not Applicable
+,Arkansas,5,Drug poisonings (overdose) Undetermined (Y10-Y14),D4,59,Not Applicable,Not Applicable
+,Arkansas,5,All other drug-induced causes,D9,21,Not Applicable,Not Applicable
+,Arkansas,5,"Alcohol poisonings (overdose) (X45, X65, Y15)",A1,24,Not Applicable,Not Applicable
+,Arkansas,5,All other alcohol-induced causes,A9,185,Not Applicable,Not Applicable
+,Arkansas,5,All other non-drug and non-alcohol causes,O9,29881,Not Applicable,Not Applicable
+,California,6,Drug poisonings (overdose) Unintentional (X40-X44),D1,3780,Not Applicable,Not Applicable
+,California,6,Drug poisonings (overdose) Suicide (X60-X64),D2,636,Not Applicable,Not Applicable
+,California,6,Drug poisonings (overdose) Undetermined (Y10-Y14),D4,99,Not Applicable,Not Applicable
+,California,6,All other drug-induced causes,D9,295,Not Applicable,Not Applicable
+,California,6,"Alcohol poisonings (overdose) (X45, X65, Y15)",A1,307,Not Applicable,Not Applicable
+,California,6,All other alcohol-induced causes,A9,4439,Not Applicable,Not Applicable
+,California,6,All other non-drug and non-alcohol causes,O9,236367,Not Applicable,Not Applicable
+,Colorado,8,Drug poisonings (overdose) Unintentional (X40-X44),D1,679,Not Applicable,Not Applicable
+,Colorado,8,Drug poisonings (overdose) Suicide (X60-X64),D2,173,Not Applicable,Not Applicable
+,Colorado,8,Drug poisonings (overdose) Undetermined (Y10-Y14),D4,47,Not Applicable,Not Applicable
+,Colorado,8,All other drug-induced causes,D9,18,Not Applicable,Not Applicable
+,Colorado,8,"Alcohol poisonings (overdose) (X45, X65, Y15)",A1,53,Not Applicable,Not Applicable
+,Colorado,8,All other alcohol-induced causes,A9,759,Not Applicable,Not Applicable
+,Colorado,8,All other non-drug and non-alcohol causes,O9,33508,Not Applicable,Not Applicable
+,Connecticut,9,Drug poisonings (overdose) Unintentional (X40-X44),D1,554,Not Applicable,Not Applicable
+,Connecticut,9,Drug poisonings (overdose) Suicide (X60-X64),D2,61,Not Applicable,Not Applicable
+,Connecticut,9,All other drug-induced causes,D9,16,Not Applicable,Not Applicable
+,Connecticut,9,"Alcohol poisonings (overdose) (X45, X65, Y15)",A1,36,Not Applicable,Not Applicable
+,Connecticut,9,All other alcohol-induced causes,A9,267,Not Applicable,Not Applicable
+,Connecticut,9,All other non-drug and non-alcohol causes,O9,28918,Not Applicable,Not Applicable
+,Delaware,10,Drug poisonings (overdose) Unintentional (X40-X44),D1,152,Not Applicable,Not Applicable
+,Delaware,10,Drug poisonings (overdose) Suicide (X60-X64),D2,25,Not Applicable,Not Applicable
+,Delaware,10,Drug poisonings (overdose) Undetermined (Y10-Y14),D4,12,Not Applicable,Not Applicable
+,Delaware,10,All other drug-induced causes,D9,15,Not Applicable,Not Applicable
+,Delaware,10,All other alcohol-induced causes,A9,75,Not Applicable,Not Applicable
+,Delaware,10,All other non-drug and non-alcohol causes,O9,7979,Not Applicable,Not Applicable
+,District of Columbia,11,Drug poisonings (overdose) Unintentional (X40-X44),D1,80,Not Applicable,Not Applicable
+,District of Columbia,11,All other drug-induced causes,D9,10,Not Applicable,Not Applicable
+,District of Columbia,11,"Alcohol poisonings (overdose) (X45, X65, Y15)",A1,10,Not Applicable,Not Applicable
+,District of Columbia,11,All other alcohol-induced causes,A9,56,Not Applicable,Not Applicable
+,District of Columbia,11,All other non-drug and non-alcohol causes,O9,4551,Not Applicable,Not Applicable
+,Florida,12,Drug poisonings (overdose) Unintentional (X40-X44),D1,2166,Not Applicable,Not Applicable
+,Florida,12,Drug poisonings (overdose) Suicide (X60-X64),D2,462,Not Applicable,Not Applicable
+,Florida,12,All other drug-induced causes,D9,170,Not Applicable,Not Applicable
+,Florida,12,"Alcohol poisonings (overdose) (X45, X65, Y15)",A1,116,Not Applicable,Not Applicable
+,Florida,12,All other alcohol-induced causes,A9,2250,Not Applicable,Not Applicable
+,Florida,12,All other non-drug and non-alcohol causes,O9,180786,Not Applicable,Not Applicable
+,Georgia,13,Drug poisonings (overdose) Unintentional (X40-X44),D1,1041,Not Applicable,Not Applicable
+,Georgia,13,Drug poisonings (overdose) Suicide (X60-X64),D2,131,Not Applicable,Not Applicable
+,Georgia,13,Drug poisonings (overdose) Undetermined (Y10-Y14),D4,32,Not Applicable,Not Applicable
+,Georgia,13,All other drug-induced causes,D9,62,Not Applicable,Not Applicable
+,Georgia,13,"Alcohol poisonings (overdose) (X45, X65, Y15)",A1,41,Not Applicable,Not Applicable
+,Georgia,13,All other alcohol-induced causes,A9,633,Not Applicable,Not Applicable
+,Georgia,13,All other non-drug and non-alcohol causes,O9,74945,Not Applicable,Not Applicable
+,Hawaii,15,Drug poisonings (overdose) Unintentional (X40-X44),D1,112,Not Applicable,Not Applicable
+,Hawaii,15,Drug poisonings (overdose) Suicide (X60-X64),D2,31,Not Applicable,Not Applicable
+,Hawaii,15,Drug poisonings (overdose) Undetermined (Y10-Y14),D4,12,Not Applicable,Not Applicable
+,Hawaii,15,All other drug-induced causes,D9,17,Not Applicable,Not Applicable
+,Hawaii,15,All other alcohol-induced causes,A9,84,Not Applicable,Not Applicable
+,Hawaii,15,All other non-drug and non-alcohol causes,O9,10506,Not Applicable,Not Applicable
+,Idaho,16,Drug poisonings (overdose) Unintentional (X40-X44),D1,146,Not Applicable,Not Applicable
+,Idaho,16,Drug poisonings (overdose) Suicide (X60-X64),D2,44,Not Applicable,Not Applicable
+,Idaho,16,Drug poisonings (overdose) Undetermined (Y10-Y14),D4,22,Not Applicable,Not Applicable
+,Idaho,16,"Alcohol poisonings (overdose) (X45, X65, Y15)",A1,14,Not Applicable,Not Applicable
+,Idaho,16,All other alcohol-induced causes,A9,217,Not Applicable,Not Applicable
+,Idaho,16,All other non-drug and non-alcohol causes,O9,12164,Not Applicable,Not Applicable
+,Illinois,17,Drug poisonings (overdose) Unintentional (X40-X44),D1,1431,Not Applicable,Not Applicable
+,Illinois,17,Drug poisonings (overdose) Suicide (X60-X64),D2,195,Not Applicable,Not Applicable
+,Illinois,17,Drug poisonings (overdose) Homicide (X85),D3,10,Not Applicable,Not Applicable
+,Illinois,17,Drug poisonings (overdose) Undetermined (Y10-Y14),D4,69,Not Applicable,Not Applicable
+,Illinois,17,All other drug-induced causes,D9,31,Not Applicable,Not Applicable
+,Illinois,17,"Alcohol poisonings (overdose) (X45, X65, Y15)",A1,92,Not Applicable,Not Applicable
+,Illinois,17,All other alcohol-induced causes,A9,797,Not Applicable,Not Applicable
+,Illinois,17,All other non-drug and non-alcohol causes,O9,102668,Not Applicable,Not Applicable
+,Indiana,18,Drug poisonings (overdose) Unintentional (X40-X44),D1,937,Not Applicable,Not Applicable
+,Indiana,18,Drug poisonings (overdose) Suicide (X60-X64),D2,114,Not Applicable,Not Applicable
+,Indiana,18,Drug poisonings (overdose) Undetermined (Y10-Y14),D4,121,Not Applicable,Not Applicable
+,Indiana,18,All other drug-induced causes,D9,61,Not Applicable,Not Applicable
+,Indiana,18,"Alcohol poisonings (overdose) (X45, X65, Y15)",A1,69,Not Applicable,Not Applicable
+,Indiana,18,All other alcohol-induced causes,A9,523,Not Applicable,Not Applicable
+,Indiana,18,All other non-drug and non-alcohol causes,O9,59115,Not Applicable,Not Applicable
+,Iowa,19,Drug poisonings (overdose) Unintentional (X40-X44),D1,203,Not Applicable,Not Applicable
+,Iowa,19,Drug poisonings (overdose) Suicide (X60-X64),D2,46,Not Applicable,Not Applicable
+,Iowa,19,Drug poisonings (overdose) Undetermined (Y10-Y14),D4,14,Not Applicable,Not Applicable
+,Iowa,19,"Alcohol poisonings (overdose) (X45, X65, Y15)",A1,40,Not Applicable,Not Applicable
+,Iowa,19,All other alcohol-induced causes,A9,320,Not Applicable,Not Applicable
+,Iowa,19,All other non-drug and non-alcohol causes,O9,28557,Not Applicable,Not Applicable
+,Kansas,20,Drug poisonings (overdose) Unintentional (X40-X44),D1,251,Not Applicable,Not Applicable
+,Kansas,20,Drug poisonings (overdose) Suicide (X60-X64),D2,57,Not Applicable,Not Applicable
+,Kansas,20,Drug poisonings (overdose) Undetermined (Y10-Y14),D4,24,Not Applicable,Not Applicable
+,Kansas,20,All other drug-induced causes,D9,17,Not Applicable,Not Applicable
+,Kansas,20,"Alcohol poisonings (overdose) (X45, X65, Y15)",A1,37,Not Applicable,Not Applicable
+,Kansas,20,All other alcohol-induced causes,A9,226,Not Applicable,Not Applicable
+,Kansas,20,All other non-drug and non-alcohol causes,O9,25181,Not Applicable,Not Applicable
+,Kentucky,21,Drug poisonings (overdose) Unintentional (X40-X44),D1,977,Not Applicable,Not Applicable
+,Kentucky,21,Drug poisonings (overdose) Suicide (X60-X64),D2,52,Not Applicable,Not Applicable
+,Kentucky,21,Drug poisonings (overdose) Undetermined (Y10-Y14),D4,47,Not Applicable,Not Applicable
+,Kentucky,21,All other drug-induced causes,D9,51,Not Applicable,Not Applicable
+,Kentucky,21,"Alcohol poisonings (overdose) (X45, X65, Y15)",A1,28,Not Applicable,Not Applicable
+,Kentucky,21,All other alcohol-induced causes,A9,368,Not Applicable,Not Applicable
+,Kentucky,21,All other non-drug and non-alcohol causes,O9,43314,Not Applicable,Not Applicable
+,Louisiana,22,Drug poisonings (overdose) Unintentional (X40-X44),D1,661,Not Applicable,Not Applicable
+,Louisiana,22,Drug poisonings (overdose) Suicide (X60-X64),D2,54,Not Applicable,Not Applicable
+,Louisiana,22,Drug poisonings (overdose) Undetermined (Y10-Y14),D4,60,Not Applicable,Not Applicable
+,Louisiana,22,All other drug-induced causes,D9,33,Not Applicable,Not Applicable
+,Louisiana,22,"Alcohol poisonings (overdose) (X45, X65, Y15)",A1,27,Not Applicable,Not Applicable
+,Louisiana,22,All other alcohol-induced causes,A9,303,Not Applicable,Not Applicable
+,Louisiana,22,All other non-drug and non-alcohol causes,O9,42729,Not Applicable,Not Applicable
+,Maine,23,Drug poisonings (overdose) Unintentional (X40-X44),D1,183,Not Applicable,Not Applicable
+,Maine,23,Drug poisonings (overdose) Suicide (X60-X64),D2,27,Not Applicable,Not Applicable
+,Maine,23,All other drug-induced causes,D9,11,Not Applicable,Not Applicable
+,Maine,23,"Alcohol poisonings (overdose) (X45, X65, Y15)",A1,19,Not Applicable,Not Applicable
+,Maine,23,All other alcohol-induced causes,A9,131,Not Applicable,Not Applicable
+,Maine,23,All other non-drug and non-alcohol causes,O9,13133,Not Applicable,Not Applicable
+,Maryland,24,Drug poisonings (overdose) Unintentional (X40-X44),D1,238,Not Applicable,Not Applicable
+,Maryland,24,Drug poisonings (overdose) Suicide (X60-X64),D2,79,Not Applicable,Not Applicable
+,Maryland,24,Drug poisonings (overdose) Undetermined (Y10-Y14),D4,750,Not Applicable,Not Applicable
+,Maryland,24,All other drug-induced causes,D9,25,Not Applicable,Not Applicable
+,Maryland,24,"Alcohol poisonings (overdose) (X45, X65, Y15)",A1,42,Not Applicable,Not Applicable
+,Maryland,24,All other alcohol-induced causes,A9,255,Not Applicable,Not Applicable
+,Maryland,24,All other non-drug and non-alcohol causes,O9,44475,Not Applicable,Not Applicable
+,Massachusetts,25,Drug poisonings (overdose) Unintentional (X40-X44),D1,1190,Not Applicable,Not Applicable
+,Massachusetts,25,Drug poisonings (overdose) Suicide (X60-X64),D2,75,Not Applicable,Not Applicable
+,Massachusetts,25,Drug poisonings (overdose) Undetermined (Y10-Y14),D4,23,Not Applicable,Not Applicable
+,Massachusetts,25,All other drug-induced causes,D9,113,Not Applicable,Not Applicable
+,Massachusetts,25,"Alcohol poisonings (overdose) (X45, X65, Y15)",A1,54,Not Applicable,Not Applicable
+,Massachusetts,25,All other alcohol-induced causes,A9,520,Not Applicable,Not Applicable
+,Massachusetts,25,All other non-drug and non-alcohol causes,O9,53224,Not Applicable,Not Applicable
+,Michigan,26,Drug poisonings (overdose) Unintentional (X40-X44),D1,1345,Not Applicable,Not Applicable
+,Michigan,26,Drug poisonings (overdose) Suicide (X60-X64),D2,180,Not Applicable,Not Applicable
+,Michigan,26,Drug poisonings (overdose) Undetermined (Y10-Y14),D4,235,Not Applicable,Not Applicable
+,Michigan,26,All other drug-induced causes,D9,286,Not Applicable,Not Applicable
+,Michigan,26,"Alcohol poisonings (overdose) (X45, X65, Y15)",A1,73,Not Applicable,Not Applicable
+,Michigan,26,All other alcohol-induced causes,A9,826,Not Applicable,Not Applicable
+,Michigan,26,All other non-drug and non-alcohol causes,O9,90967,Not Applicable,Not Applicable
+,Minnesota,27,Drug poisonings (overdose) Unintentional (X40-X44),D1,407,Not Applicable,Not Applicable
+,Minnesota,27,Drug poisonings (overdose) Suicide (X60-X64),D2,88,Not Applicable,Not Applicable
+,Minnesota,27,Drug poisonings (overdose) Undetermined (Y10-Y14),D4,20,Not Applicable,Not Applicable
+,Minnesota,27,All other drug-induced causes,D9,69,Not Applicable,Not Applicable
+,Minnesota,27,"Alcohol poisonings (overdose) (X45, X65, Y15)",A1,59,Not Applicable,Not Applicable
+,Minnesota,27,All other alcohol-induced causes,A9,499,Not Applicable,Not Applicable
+,Minnesota,27,All other non-drug and non-alcohol causes,O9,40301,Not Applicable,Not Applicable
+,Mississippi,28,Drug poisonings (overdose) Unintentional (X40-X44),D1,299,Not Applicable,Not Applicable
+,Mississippi,28,Drug poisonings (overdose) Suicide (X60-X64),D2,25,Not Applicable,Not Applicable
+,Mississippi,28,Drug poisonings (overdose) Undetermined (Y10-Y14),D4,12,Not Applicable,Not Applicable
+,Mississippi,28,All other drug-induced causes,D9,25,Not Applicable,Not Applicable
+,Mississippi,28,"Alcohol poisonings (overdose) (X45, X65, Y15)",A1,20,Not Applicable,Not Applicable
+,Mississippi,28,All other alcohol-induced causes,A9,167,Not Applicable,Not Applicable
+,Mississippi,28,All other non-drug and non-alcohol causes,O9,30009,Not Applicable,Not Applicable
+,Missouri,29,Drug poisonings (overdose) Unintentional (X40-X44),D1,887,Not Applicable,Not Applicable
+,Missouri,29,Drug poisonings (overdose) Suicide (X60-X64),D2,107,Not Applicable,Not Applicable
+,Missouri,29,Drug poisonings (overdose) Homicide (X85),D3,11,Not Applicable,Not Applicable
+,Missouri,29,Drug poisonings (overdose) Undetermined (Y10-Y14),D4,62,Not Applicable,Not Applicable
+,Missouri,29,All other drug-induced causes,D9,40,Not Applicable,Not Applicable
+,Missouri,29,"Alcohol poisonings (overdose) (X45, X65, Y15)",A1,51,Not Applicable,Not Applicable
+,Missouri,29,All other alcohol-induced causes,A9,423,Not Applicable,Not Applicable
+,Missouri,29,All other non-drug and non-alcohol causes,O9,56739,Not Applicable,Not Applicable
+,Montana,30,Drug poisonings (overdose) Unintentional (X40-X44),D1,71,Not Applicable,Not Applicable
+,Montana,30,Drug poisonings (overdose) Suicide (X60-X64),D2,32,Not Applicable,Not Applicable
+,Montana,30,Drug poisonings (overdose) Undetermined (Y10-Y14),D4,22,Not Applicable,Not Applicable
+,Montana,30,All other drug-induced causes,D9,20,Not Applicable,Not Applicable
+,Montana,30,"Alcohol poisonings (overdose) (X45, X65, Y15)",A1,12,Not Applicable,Not Applicable
+,Montana,30,All other alcohol-induced causes,A9,150,Not Applicable,Not Applicable
+,Montana,30,All other non-drug and non-alcohol causes,O9,9074,Not Applicable,Not Applicable
+,Nebraska,31,Drug poisonings (overdose) Unintentional (X40-X44),D1,93,Not Applicable,Not Applicable
+,Nebraska,31,Drug poisonings (overdose) Suicide (X60-X64),D2,25,Not Applicable,Not Applicable
+,Nebraska,31,All other drug-induced causes,D9,15,Not Applicable,Not Applicable
+,Nebraska,31,"Alcohol poisonings (overdose) (X45, X65, Y15)",A1,13,Not Applicable,Not Applicable
+,Nebraska,31,All other alcohol-induced causes,A9,171,Not Applicable,Not Applicable
+,Nebraska,31,All other non-drug and non-alcohol causes,O9,15654,Not Applicable,Not Applicable
+,Nevada,32,Drug poisonings (overdose) Unintentional (X40-X44),D1,447,Not Applicable,Not Applicable
+,Nevada,32,Drug poisonings (overdose) Suicide (X60-X64),D2,87,Not Applicable,Not Applicable
+,Nevada,32,All other drug-induced causes,D9,10,Not Applicable,Not Applicable
+,Nevada,32,"Alcohol poisonings (overdose) (X45, X65, Y15)",A1,17,Not Applicable,Not Applicable
+,Nevada,32,All other alcohol-induced causes,A9,361,Not Applicable,Not Applicable
+,Nevada,32,All other non-drug and non-alcohol causes,O9,20860,Not Applicable,Not Applicable
+,New Hampshire,33,Drug poisonings (overdose) Unintentional (X40-X44),D1,281,Not Applicable,Not Applicable
+,New Hampshire,33,Drug poisonings (overdose) Suicide (X60-X64),D2,40,Not Applicable,Not Applicable
+,New Hampshire,33,Drug poisonings (overdose) Undetermined (Y10-Y14),D4,13,Not Applicable,Not Applicable
+,New Hampshire,33,All other drug-induced causes,D9,14,Not Applicable,Not Applicable
+,New Hampshire,33,"Alcohol poisonings (overdose) (X45, X65, Y15)",A1,11,Not Applicable,Not Applicable
+,New Hampshire,33,All other alcohol-induced causes,A9,172,Not Applicable,Not Applicable
+,New Hampshire,33,All other non-drug and non-alcohol causes,O9,10985,Not Applicable,Not Applicable
+,New Jersey,34,Drug poisonings (overdose) Unintentional (X40-X44),D1,1109,Not Applicable,Not Applicable
+,New Jersey,34,Drug poisonings (overdose) Suicide (X60-X64),D2,106,Not Applicable,Not Applicable
+,New Jersey,34,Drug poisonings (overdose) Undetermined (Y10-Y14),D4,37,Not Applicable,Not Applicable
+,New Jersey,34,All other drug-induced causes,D9,50,Not Applicable,Not Applicable
+,New Jersey,34,"Alcohol poisonings (overdose) (X45, X65, Y15)",A1,60,Not Applicable,Not Applicable
+,New Jersey,34,All other alcohol-induced causes,A9,495,Not Applicable,Not Applicable
+,New Jersey,34,All other non-drug and non-alcohol causes,O9,69458,Not Applicable,Not Applicable
+,New Mexico,35,Drug poisonings (overdose) Unintentional (X40-X44),D1,486,Not Applicable,Not Applicable
+,New Mexico,35,Drug poisonings (overdose) Suicide (X60-X64),D2,50,Not Applicable,Not Applicable
+,New Mexico,35,Drug poisonings (overdose) Undetermined (Y10-Y14),D4,11,Not Applicable,Not Applicable
+,New Mexico,35,All other drug-induced causes,D9,12,Not Applicable,Not Applicable
+,New Mexico,35,"Alcohol poisonings (overdose) (X45, X65, Y15)",A1,32,Not Applicable,Not Applicable
+,New Mexico,35,All other alcohol-induced causes,A9,484,Not Applicable,Not Applicable
+,New Mexico,35,All other non-drug and non-alcohol causes,O9,16504,Not Applicable,Not Applicable
+,New York,36,Drug poisonings (overdose) Unintentional (X40-X44),D1,1937,Not Applicable,Not Applicable
+,New York,36,Drug poisonings (overdose) Suicide (X60-X64),D2,227,Not Applicable,Not Applicable
+,New York,36,Drug poisonings (overdose) Undetermined (Y10-Y14),D4,135,Not Applicable,Not Applicable
+,New York,36,All other drug-induced causes,D9,210,Not Applicable,Not Applicable
+,New York,36,"Alcohol poisonings (overdose) (X45, X65, Y15)",A1,127,Not Applicable,Not Applicable
+,New York,36,All other alcohol-induced causes,A9,1276,Not Applicable,Not Applicable
+,New York,36,All other non-drug and non-alcohol causes,O9,146031,Not Applicable,Not Applicable
+,North Carolina,37,Drug poisonings (overdose) Unintentional (X40-X44),D1,1108,Not Applicable,Not Applicable
+,North Carolina,37,Drug poisonings (overdose) Suicide (X60-X64),D2,206,Not Applicable,Not Applicable
+,North Carolina,37,Drug poisonings (overdose) Undetermined (Y10-Y14),D4,42,Not Applicable,Not Applicable
+,North Carolina,37,All other drug-induced causes,D9,77,Not Applicable,Not Applicable
+,North Carolina,37,"Alcohol poisonings (overdose) (X45, X65, Y15)",A1,91,Not Applicable,Not Applicable
+,North Carolina,37,All other alcohol-induced causes,A9,796,Not Applicable,Not Applicable
+,North Carolina,37,All other non-drug and non-alcohol causes,O9,83045,Not Applicable,Not Applicable
+,North Dakota,38,Drug poisonings (overdose) Unintentional (X40-X44),D1,33,Not Applicable,Not Applicable
+,North Dakota,38,All other alcohol-induced causes,A9,85,Not Applicable,Not Applicable
+,North Dakota,38,All other non-drug and non-alcohol causes,O9,6043,Not Applicable,Not Applicable
+,Ohio,39,Drug poisonings (overdose) Unintentional (X40-X44),D1,2532,Not Applicable,Not Applicable
+,Ohio,39,Drug poisonings (overdose) Suicide (X60-X64),D2,161,Not Applicable,Not Applicable
+,Ohio,39,Drug poisonings (overdose) Undetermined (Y10-Y14),D4,49,Not Applicable,Not Applicable
+,Ohio,39,All other drug-induced causes,D9,88,Not Applicable,Not Applicable
+,Ohio,39,"Alcohol poisonings (overdose) (X45, X65, Y15)",A1,74,Not Applicable,Not Applicable
+,Ohio,39,All other alcohol-induced causes,A9,872,Not Applicable,Not Applicable
+,Ohio,39,All other non-drug and non-alcohol causes,O9,110731,Not Applicable,Not Applicable
+,Oklahoma,40,Drug poisonings (overdose) Unintentional (X40-X44),D1,650,Not Applicable,Not Applicable
+,Oklahoma,40,Drug poisonings (overdose) Suicide (X60-X64),D2,68,Not Applicable,Not Applicable
+,Oklahoma,40,Drug poisonings (overdose) Undetermined (Y10-Y14),D4,59,Not Applicable,Not Applicable
+,Oklahoma,40,All other drug-induced causes,D9,32,Not Applicable,Not Applicable
+,Oklahoma,40,"Alcohol poisonings (overdose) (X45, X65, Y15)",A1,56,Not Applicable,Not Applicable
+,Oklahoma,40,All other alcohol-induced causes,A9,483,Not Applicable,Not Applicable
+,Oklahoma,40,All other non-drug and non-alcohol causes,O9,37116,Not Applicable,Not Applicable
+,Oregon,41,Drug poisonings (overdose) Unintentional (X40-X44),D1,377,Not Applicable,Not Applicable
+,Oregon,41,Drug poisonings (overdose) Suicide (X60-X64),D2,98,Not Applicable,Not Applicable
+,Oregon,41,Drug poisonings (overdose) Undetermined (Y10-Y14),D4,46,Not Applicable,Not Applicable
+,Oregon,41,All other drug-induced causes,D9,95,Not Applicable,Not Applicable
+,Oregon,41,"Alcohol poisonings (overdose) (X45, X65, Y15)",A1,46,Not Applicable,Not Applicable
+,Oregon,41,All other alcohol-induced causes,A9,715,Not Applicable,Not Applicable
+,Oregon,41,All other non-drug and non-alcohol causes,O9,32773,Not Applicable,Not Applicable
+,Pennsylvania,42,Drug poisonings (overdose) Unintentional (X40-X44),D1,2424,Not Applicable,Not Applicable
+,Pennsylvania,42,Drug poisonings (overdose) Suicide (X60-X64),D2,224,Not Applicable,Not Applicable
+,Pennsylvania,42,Drug poisonings (overdose) Undetermined (Y10-Y14),D4,79,Not Applicable,Not Applicable
+,Pennsylvania,42,All other drug-induced causes,D9,97,Not Applicable,Not Applicable
+,Pennsylvania,42,"Alcohol poisonings (overdose) (X45, X65, Y15)",A1,74,Not Applicable,Not Applicable
+,Pennsylvania,42,All other alcohol-induced causes,A9,759,Not Applicable,Not Applicable
+,Pennsylvania,42,All other non-drug and non-alcohol causes,O9,124772,Not Applicable,Not Applicable
+,Rhode Island,44,Drug poisonings (overdose) Unintentional (X40-X44),D1,223,Not Applicable,Not Applicable
+,Rhode Island,44,Drug poisonings (overdose) Suicide (X60-X64),D2,18,Not Applicable,Not Applicable
+,Rhode Island,44,"Alcohol poisonings (overdose) (X45, X65, Y15)",A1,26,Not Applicable,Not Applicable
+,Rhode Island,44,All other alcohol-induced causes,A9,107,Not Applicable,Not Applicable
+,Rhode Island,44,All other non-drug and non-alcohol causes,O9,9384,Not Applicable,Not Applicable
+,South Carolina,45,Drug poisonings (overdose) Unintentional (X40-X44),D1,609,Not Applicable,Not Applicable
+,South Carolina,45,Drug poisonings (overdose) Suicide (X60-X64),D2,74,Not Applicable,Not Applicable
+,South Carolina,45,Drug poisonings (overdose) Undetermined (Y10-Y14),D4,15,Not Applicable,Not Applicable
+,South Carolina,45,All other drug-induced causes,D9,25,Not Applicable,Not Applicable
+,South Carolina,45,"Alcohol poisonings (overdose) (X45, X65, Y15)",A1,29,Not Applicable,Not Applicable
+,South Carolina,45,All other alcohol-induced causes,A9,413,Not Applicable,Not Applicable
+,South Carolina,45,All other non-drug and non-alcohol causes,O9,44286,Not Applicable,Not Applicable
+,South Dakota,46,Drug poisonings (overdose) Unintentional (X40-X44),D1,45,Not Applicable,Not Applicable
+,South Dakota,46,Drug poisonings (overdose) Suicide (X60-X64),D2,12,Not Applicable,Not Applicable
+,South Dakota,46,All other alcohol-induced causes,A9,137,Not Applicable,Not Applicable
+,South Dakota,46,All other non-drug and non-alcohol causes,O9,7292,Not Applicable,Not Applicable
+,Tennessee,47,Drug poisonings (overdose) Unintentional (X40-X44),D1,1110,Not Applicable,Not Applicable
+,Tennessee,47,Drug poisonings (overdose) Suicide (X60-X64),D2,108,Not Applicable,Not Applicable
+,Tennessee,47,Drug poisonings (overdose) Undetermined (Y10-Y14),D4,47,Not Applicable,Not Applicable
+,Tennessee,47,All other drug-induced causes,D9,61,Not Applicable,Not Applicable
+,Tennessee,47,"Alcohol poisonings (overdose) (X45, X65, Y15)",A1,46,Not Applicable,Not Applicable
+,Tennessee,47,All other alcohol-induced causes,A9,594,Not Applicable,Not Applicable
+,Tennessee,47,All other non-drug and non-alcohol causes,O9,62691,Not Applicable,Not Applicable
+,Texas,48,Drug poisonings (overdose) Unintentional (X40-X44),D1,2153,Not Applicable,Not Applicable
+,Texas,48,Drug poisonings (overdose) Suicide (X60-X64),D2,344,Not Applicable,Not Applicable
+,Texas,48,Drug poisonings (overdose) Undetermined (Y10-Y14),D4,97,Not Applicable,Not Applicable
+,Texas,48,All other drug-induced causes,D9,126,Not Applicable,Not Applicable
+,Texas,48,"Alcohol poisonings (overdose) (X45, X65, Y15)",A1,118,Not Applicable,Not Applicable
+,Texas,48,All other alcohol-induced causes,A9,1797,Not Applicable,Not Applicable
+,Texas,48,All other non-drug and non-alcohol causes,O9,179270,Not Applicable,Not Applicable
+,Utah,49,Drug poisonings (overdose) Unintentional (X40-X44),D1,411,Not Applicable,Not Applicable
+,Utah,49,Drug poisonings (overdose) Suicide (X60-X64),D2,94,Not Applicable,Not Applicable
+,Utah,49,Drug poisonings (overdose) Undetermined (Y10-Y14),D4,97,Not Applicable,Not Applicable
+,Utah,49,All other drug-induced causes,D9,14,Not Applicable,Not Applicable
+,Utah,49,"Alcohol poisonings (overdose) (X45, X65, Y15)",A1,22,Not Applicable,Not Applicable
+,Utah,49,All other alcohol-induced causes,A9,216,Not Applicable,Not Applicable
+,Utah,49,All other non-drug and non-alcohol causes,O9,15864,Not Applicable,Not Applicable
+,Vermont,50,Drug poisonings (overdose) Unintentional (X40-X44),D1,57,Not Applicable,Not Applicable
+,Vermont,50,Drug poisonings (overdose) Suicide (X60-X64),D2,16,Not Applicable,Not Applicable
+,Vermont,50,Drug poisonings (overdose) Undetermined (Y10-Y14),D4,10,Not Applicable,Not Applicable
+,Vermont,50,All other alcohol-induced causes,A9,85,Not Applicable,Not Applicable
+,Vermont,50,All other non-drug and non-alcohol causes,O9,5440,Not Applicable,Not Applicable
+,Virginia,51,Drug poisonings (overdose) Unintentional (X40-X44),D1,777,Not Applicable,Not Applicable
+,Virginia,51,Drug poisonings (overdose) Suicide (X60-X64),D2,158,Not Applicable,Not Applicable
+,Virginia,51,Drug poisonings (overdose) Undetermined (Y10-Y14),D4,45,Not Applicable,Not Applicable
+,Virginia,51,All other drug-induced causes,D9,22,Not Applicable,Not Applicable
+,Virginia,51,"Alcohol poisonings (overdose) (X45, X65, Y15)",A1,30,Not Applicable,Not Applicable
+,Virginia,51,All other alcohol-induced causes,A9,520,Not Applicable,Not Applicable
+,Virginia,51,All other non-drug and non-alcohol causes,O9,62046,Not Applicable,Not Applicable
+,Washington,53,Drug poisonings (overdose) Unintentional (X40-X44),D1,789,Not Applicable,Not Applicable
+,Washington,53,Drug poisonings (overdose) Suicide (X60-X64),D2,161,Not Applicable,Not Applicable
+,Washington,53,Drug poisonings (overdose) Undetermined (Y10-Y14),D4,29,Not Applicable,Not Applicable
+,Washington,53,All other drug-induced causes,D9,79,Not Applicable,Not Applicable
+,Washington,53,"Alcohol poisonings (overdose) (X45, X65, Y15)",A1,45,Not Applicable,Not Applicable
+,Washington,53,All other alcohol-induced causes,A9,994,Not Applicable,Not Applicable
+,Washington,53,All other non-drug and non-alcohol causes,O9,50002,Not Applicable,Not Applicable
+,West Virginia,54,Drug poisonings (overdose) Unintentional (X40-X44),D1,558,Not Applicable,Not Applicable
+,West Virginia,54,Drug poisonings (overdose) Suicide (X60-X64),D2,46,Not Applicable,Not Applicable
+,West Virginia,54,Drug poisonings (overdose) Undetermined (Y10-Y14),D4,23,Not Applicable,Not Applicable
+,West Virginia,54,All other drug-induced causes,D9,19,Not Applicable,Not Applicable
+,West Virginia,54,"Alcohol poisonings (overdose) (X45, X65, Y15)",A1,27,Not Applicable,Not Applicable
+,West Virginia,54,All other alcohol-induced causes,A9,168,Not Applicable,Not Applicable
+,West Virginia,54,All other non-drug and non-alcohol causes,O9,21345,Not Applicable,Not Applicable
+,Wisconsin,55,Drug poisonings (overdose) Unintentional (X40-X44),D1,705,Not Applicable,Not Applicable
+,Wisconsin,55,Drug poisonings (overdose) Suicide (X60-X64),D2,107,Not Applicable,Not Applicable
+,Wisconsin,55,Drug poisonings (overdose) Undetermined (Y10-Y14),D4,38,Not Applicable,Not Applicable
+,Wisconsin,55,All other drug-induced causes,D9,21,Not Applicable,Not Applicable
+,Wisconsin,55,"Alcohol poisonings (overdose) (X45, X65, Y15)",A1,38,Not Applicable,Not Applicable
+,Wisconsin,55,All other alcohol-induced causes,A9,592,Not Applicable,Not Applicable
+,Wisconsin,55,All other non-drug and non-alcohol causes,O9,48787,Not Applicable,Not Applicable
+,Wyoming,56,Drug poisonings (overdose) Unintentional (X40-X44),D1,87,Not Applicable,Not Applicable
+,Wyoming,56,Drug poisonings (overdose) Suicide (X60-X64),D2,18,Not Applicable,Not Applicable
+,Wyoming,56,All other alcohol-induced causes,A9,96,Not Applicable,Not Applicable
+,Wyoming,56,All other non-drug and non-alcohol causes,O9,4451,Not Applicable,Not Applicable
+---,,,,,,,
+"Dataset: Underlying Cause of Death, 1999-2017",,,,,,,
+Query Parameters:,,,,,,,
+Year/Month: 2014,,,,,,,
+Group By: State; Drug/Alcohol Induced Cause,,,,,,,
+Show Totals: Disabled,,,,,,,
+Show Zero Values: False,,,,,,,
+Show Suppressed: False,,,,,,,
+"Calculate Rates Per: 100,000",,,,,,,
+Rate Options: Default intercensal populations for years 2001-2009 (except Infant Age Groups),,,,,,,
+---,,,,,,,
+Help: See http://wonder.cdc.gov/wonder/help/ucd.html for more information.,,,,,,,
+---,,,,,,,
+"Query Date: Nov 11, 2019 8:30:29 PM",,,,,,,
+---,,,,,,,
+"Suggested Citation: Centers for Disease Control and Prevention, National Center for Health Statistics. Underlying Cause of Death",,,,,,,
+"1999-2017 on CDC WONDER Online Database, released December, 2018. Data are from the Multiple Cause of Death Files, 1999-2017, as",,,,,,,
+compiled from data provided by the 57 vital statistics jurisdictions through the Vital Statistics Cooperative Program. Accessed,,,,,,,
+"at http://wonder.cdc.gov/ucd-icd10.html on Nov 11, 2019 8:30:29 PM",,,,,,,
+---,,,,,,,
+Messages:,,,,,,,
+1. Totals are not available for these results due to suppression constraints. More Information:,,,,,,,
+http://wonder.cdc.gov/wonder/help/faq.html#Privacy.,,,,,,,
+2. Rows with suppressed Deaths are hidden. Use Quick Options above to show suppressed rows.,,,,,,,
+---,,,,,,,
+Caveats:,,,,,,,
+"1. Population and rates are labeled 'Not Applicable' when Autopsy, Place of Death, Weekday or Month are grouped by or limited,",,,,,,,
+due to lack of a valid population. More information: http://wonder.cdc.gov/wonder/help/ucd.html#NotApplicableRates.,,,,,,,
+"2. As of April 3, 2017, the underlying cause of death has been revised for 125 deaths in 2014. More information:",,,,,,,
+http://wonder.cdc.gov/wonder/help/ucd.html#2014-Revision.,,,,,,,
+3. Data are Suppressed when the data meet the criteria for confidentiality constraints. More information:,,,,,,,
+http://wonder.cdc.gov/wonder/help/ucd.html#Assurance of Confidentiality.,,,,,,,
+4. Death rates are flagged as Unreliable when the rate is calculated with a numerator of 20 or less. More information:,,,,,,,
+http://wonder.cdc.gov/wonder/help/ucd.html#Unreliable.,,,,,,,
