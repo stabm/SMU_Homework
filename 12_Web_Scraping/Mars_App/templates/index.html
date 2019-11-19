@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Mission to Mars By Marina</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+</head>
+
+<body>
+  <div class="container-fluid">
+    <div class="jumbotron text-center">
+      <h1>MISSION TO MARS</h1>
+      <input type="button" onclick="location.href='/scrape';" value="Scrape Data" />
+      <h5>Last Scraped: {{mars.last_updated}}</h5>
+    </div>
+  </div>
+
+  <div class="container-fluid">
+    <div class="jumbotron text-center">
+      <h1>MARS NEWS</h1>
+      <br>
+      <h3>{{mars.newsTitle}}</h3>
+      <p>Read More:</p>
+      <a href={{mars.newsLink}} target="_blank">{{mars.newsTitle}}</a>
+    </div>
+  </div>
+  <div>
+    <img src={{mars.featImageLink}} width='300px' height='150px'/>
+  </div>
+
+  <div>
+    <p>{{mars.weatherInfo}}</p>
+  </div>
+
+  <div>
+    {{mars.marsFacts | safe}}
+  </div>
+
+
+  <div>
+      {%for i in range(0, 4)%} 
+      <h3>
+          {{mars.hemisphereInfo[i].title}}
+        </h3>
+        <img src={{mars.hemisphereInfo[i].link}} width='300px' height='300px'/>
+      {%endfor%} 
+
+  </div>
+
+</body>
+
+</html>
