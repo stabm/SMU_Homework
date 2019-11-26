@@ -1,10 +1,12 @@
-// from data.js
+// variable for data file 
 var UFO_table = data;
 
+
+// variable to select tbody in html
 var tbody = d3.select("tbody");
 
-var row = tbody.append("tr");
 
+// function to 
 function pull_data(aliens) {
     tbody.html("");
     console.log(aliens);
@@ -27,7 +29,6 @@ function filt_data() {
     }
     pull_data(filtered_data);
     console.log(filtered_data);
-    
 }
 
 pull_data(UFO_table)
