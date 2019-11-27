@@ -6,7 +6,7 @@ var UFO_table = data;
 var tbody = d3.select("tbody");
 
 
-// function to 
+// function one 
 function pull_data(aliens) {
     tbody.html("");
     console.log(aliens);
@@ -18,6 +18,8 @@ function pull_data(aliens) {
     })
 }
 
+
+//function two 
 function filt_data() {
     d3.event.preventDefault();
     var filtered_data = UFO_table;
