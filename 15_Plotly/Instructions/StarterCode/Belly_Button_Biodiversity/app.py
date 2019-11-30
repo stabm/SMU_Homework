@@ -14,9 +14,12 @@ from flask_sqlalchemy import SQLAlchemy
 app = Flask(__name__)
 
 
+
 #################################################
 # Database Setup
 #################################################
+
+
 
 app.config["SQLALCHEMY_DATABASE_URI"] = "sqlite:///db/bellybutton.sqlite"
 db = SQLAlchemy(app)
@@ -31,10 +34,12 @@ Samples_Metadata = Base.classes.sample_metadata
 Samples = Base.classes.samples
 
 
+
 @app.route("/")
 def index():
     """Return the homepage."""
     return render_template("index.html")
+
 
 
 @app.route("/names")
@@ -47,6 +52,7 @@ def names():
 
     # Return a list of the column names (sample names)
     return jsonify(list(df.columns)[2:])
+
 
 
 @app.route("/metadata/<sample>")
@@ -79,6 +85,7 @@ def sample_metadata(sample):
     return jsonify(sample_metadata)
 
 
+
 @app.route("/samples/<sample>")
 def samples(sample):
     """Return `otu_ids`, `otu_labels`,and `sample_values`."""
@@ -99,6 +106,7 @@ def samples(sample):
         "otu_labels": sample_data.otu_label.tolist(),
     }
     return jsonify(data)
+
 
 
 if __name__ == "__main__":

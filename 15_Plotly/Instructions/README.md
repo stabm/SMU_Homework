@@ -1,4 +1,4 @@
-# Plot.ly Homework - Belly Button Biodiversity
+<!-- # Plot.ly Homework - Belly Button Biodiversity
 
 ![Bacteria by filterforge.com](Images/bacteria_by_filterforgedotcom.jpg)
 
@@ -14,7 +14,7 @@ In this assignment, you will build an interactive dashboard to explore the [Bell
 
 4. This is a full stack app so add your html, js, css, python and sqlite files.
 
-5. Push the above changes to GitHub or GitLab.
+5. Push the above changes to GitHub or GitLab. -->
 
 ## Step 1 - Plotly.js
 
@@ -62,6 +62,8 @@ Deploy your Flask app to Heroku.
 * You can use the provided sqlite file for the database.
 
 * Ask your Instructor and TAs for help!
+
+// add to GitHub, Heroku.com, 
 
 - - -
 
