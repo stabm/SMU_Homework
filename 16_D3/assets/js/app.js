@@ -6,13 +6,6 @@
 // CHANGE COLUMNS TO POVERTY AND HEALTHCARE 
 // CHANGE + TO PARSEFLOAT FUNCTION
 // ADD FOLLOWING TO HTML LINES 52
-{
-    /* <script src="https://d3js.org/d3.v5.min.js"></script>
-            <script src="https://cdnjs.cloudflare.com/ajax/libs/d3-tip/0.7.1/d3-tip.min.js"></script>
-            <script type="text/javascript" src="app.js"></script> */
-}
-
-
 
 var svgWidth = 960;
 var svgHeight = 500;
