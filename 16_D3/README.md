@@ -1,4 +1,4 @@
-# D3 Homework - Data Journalism and D3
+<!-- # D3 Homework - Data Journalism and D3
 
 ![Newsroom](https://media.giphy.com/media/v2xIous7mnEYg/giphy.gif)
 
@@ -22,7 +22,7 @@ The data set included with the assignment is based on 2014 ACS 1-year estimates:
 
 5. Push the above changes to GitHub or GitLab.
 
-## Your Task
+## Your Task -->
 
 ### Level 1: D3 Dabbler
 

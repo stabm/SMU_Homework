@@ -1,13 +1,6 @@
 // @TODO: YOUR CODE HERE!
 
-// COPY PASTE HAIR METAL ACTIVITY 
-// CHANGE CSV 
-// CHANGE VAR HAIRDATA TO POVDATA
-// CHANGE COLUMNS TO POVERTY AND HEALTHCARE 
-// CHANGE + TO PARSEFLOAT FUNCTION
-// ADD FOLLOWING TO HTML LINES 52
-
-var svgWidth = 960;
+var svgWidth = 900;
 var svgHeight = 500;
 
 var margin = {
@@ -46,8 +39,17 @@ d3.csv("../assets/data/data.csv").then(function(povData) {
         .range([0, width]);
 
     var yLinearScale = d3.scaleLinear()
-        .domain([0, d3.max(povData, d => d.healthcare) + 3])
+        .domain([2, d3.max(povData, d => d.healthcare) + 2])
         .range([height, 0]);
+
+    // var xScale = d3
+    //     .scaleLinear()
+    //     .domain([xMin, xMax])
+    //     .range([margin + labelArea, width - margin]);
+    // var yScale = d3
+    //     .scaleLinear()
+    //     .domain([yMin, yMax])
+    //     .range([height - margin - labelArea, margin]);
 
     // Step 3: Create axis functions
     // ==============================
@@ -68,30 +70,46 @@ d3.csv("../assets/data/data.csv").then(function(povData) {
     var circlesGroup = chartGroup.selectAll("circle")
         .data(povData)
         .enter()
+
+    circlesGroup
         .append("circle")
         .attr("cx", d => xLinearScale(d.poverty))
         .attr("cy", d => yLinearScale(d.healthcare))
         .attr("r", "15")
-        .attr("fill", "pink")
-        .attr("opacity", ".5");
+        .attr("fill", "purple")
+        .attr("opacity", ".6")
+
+    circlesGroup
+        .append("text")
+        .text(function(d) {
+            return d.abbr;
+        })
+        .attr("dx", d => xLinearScale(d.poverty))
+        .attr("dy", d => yLinearScale(d.healthcare))
+        .attr("font-size", 13)
+        .attr("class", "stateText")
+        .on("mouseover", function(d) {
+            toolTip.show(d);
+            d3.select("." + d.abbr).style("stroke", "#e3e3e3")
+        });
 
     // Step 5.5 Add Text in Circles
-    let text = svg.selectAll(null)
-        .data(povData)
-        .enter()
-        .append('text')
-        .text(d => d.abbr)
-        .attr('color', 'black')
-        .attr("style", "text-anchor:center")
-        .attr('font-size', 15)
-        .attr("x", d => xLinearScale(d.poverty) + 90)
-        .attr("y", d => (yLinearScale(d.healthcare) * 1.05) + 20);
+    // let text = svg.selectAll(null)
+    // .data(povData)
+    // .enter()
+    // .append('text')
+    // .text(d => d.abbr)
+    // .attr('color', 'black')
+    // .attr("style", "text-anchor:center")
+    // .attr('font-size', 15)
+    // .attr("x", d => xLinearScale(d.poverty))
+    // .attr("y", d => (yLinearScale(d.healthcare) + 10));
 
     // Step 6: Initialize tool tip
     // ==============================
     var toolTip = d3.tip()
         .attr("class", "tooltip")
-        .offset([80, -60])
+        .offset([40, -60])
         .html(function(d) {
             return (`${d.state}<br>Poverty %: ${d.poverty}%<br>Healthcare %: ${d.healthcare}%`);
         });
@@ -102,13 +120,13 @@ d3.csv("../assets/data/data.csv").then(function(povData) {
 
     // Step 8: Create event listeners to display and hide the tooltip
     // ==============================
-    circlesGroup.on("hover", function(data) {
-            toolTip.show(data, this);
-        })
-        // onmouseout event
-    texts.on("mouseout", function(data, index) {
-        toolTip.hide(data);
-    });
+    // circlesGroup.on("hover", function(data) {
+    //         toolTip.show(data, this);
+    //     })
+    //     // onmouseout event
+    // texts.on("mouseout", function(data, index) {
+    //     toolTip.hide(data);
+    // });
 
     // Create axes labels
     chartGroup.append("text")
