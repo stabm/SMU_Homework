@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Wino Dino</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.7/superhero/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" type="image/jfif" href="/bottle.jfif" />
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <h1><b><i>Wino Dino Dashboard</i></b></h1>
+            </div>
+        </div>
+
+        <div class="wrapper">
+            <nav class="navbar navbar-default">
+                <div class="container-fluid">
+                    <div class="navbar-header">
+                        <a class="navbar-brand" href="index.html">
+                            <p><b><i>Shop Your Next Hangover</b></i>
+                            </p>
+                        </a>
+                    </div>
+                </div>
+            </nav>
+
+            <!-- add visualization code -->
+
+
+            <div class="container">
+                <div class="row margin-top-50">
+                    <div class="col-md-2">
+                        <aside class="filters">
+                            <form>
+                                <div class="form-group">
+                                    <ul class="list-group" id="filters">
+                                        <li class="filter list-group-item">
+                                            <label for="winery">Winery</label>
+                                            <input class="form-control" id="datetime" type="text" placeholder="1/11/2011">
+                                        </li>
+                                        <li class="filter list-group-item">
+                                            <label for="variety">Variety</label>
+                                            <input class="form-control" id="datetime" type="text" placeholder="1/11/2011">
+                                        </li>
+                                        <li class="filter list-group-item">
+                                            <label for="price">Price Range</label>
+                                            <input class="form-control" id="datetime" type="text" placeholder="1/11/2011">
+                                        </li>
+                                        <li class="filter list-group-item">
+                                            <label for="points">Point Range</label>
+                                            <input class="form-control" id="datetime" type="text" placeholder="1/11/2011">
+                                        </li>
+                                        <li class="filter list-group-item">
+                                            <label for="country">Country</label>
+                                            <input class="form-control" id="datetime" type="text" placeholder="1/11/2011">
+                                        </li>
+                                        <li class="filter list-group-item">
+                                            <label for="province"></label>Province</label>
+                                            <input class="form-control" id="datetime" type="text" placeholder="1/11/2011">
+                                        </li>
+                                        <li class="filter list-group-item">
+                                            <button id="filter-btn" type="button" class="btn">Filter </button>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </form>
+                    </div>
+                </div>
+                </aside>
+            </div>
+            <div class="col-md-10">
+                <div id="table-area" class="">
+                    <table id="ufo-table" class="table table-striped">
+                        <thead>
+                            <tr>
+                                <th class="table-head">Designation</th>
+                                <th class="table-head">Winery</th>
+                                <th class="table-head">Variety</th>
+                                <th class="table-head">Description</th>
+                                <th class="table-head">Price</th>
+                                <th class="table-head">Points</th>
+                                <th class="table-head">Country</th>
+                                <th class="table-head">Province</th>
+                            </tr>
+                        </thead>
+                        <tbody></tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+    <img src="/smugpug.png" width="20">
+    </div>
+    <script src="static/js/data.js"></script>
+    <script src="static/js/app.js"></script>
+    <script src="https://cdn.plot.ly/plotly-1.31.2.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.5.0/d3.js"></script>
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+    <script src="{{ url_for('static', filename='js/bonus.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/app.js') }}"></script>
+</body>
+
+<!-- <body>
+
+    
+
+            <div class="row">
+                <div class="col-md-2">
+                    <div class="well">
+                        <h5>Sample:</h5>
+                        <select id="selDataset" onchange="optionChanged(this.value)"></select>
+                    </div>
+                    <div class="panel panel-primary">
+                        <div class="panel-heading">
+                            <h3 class="panel-title">Sample MetaData</h3>
+                        </div>
+                        <div id="sample-metadata" class="panel-body"></div>
+                    </div>
+                </div>
+                <div class="col-md-5">
+                    <div id="pie"></div>
+                </div>
+                <div class="col-md-5">
+                    <div id="gauge"></div>
+                </div>
+            </div>
+        </div>
+        </div>
+
+        <script src="https://cdn.plot.ly/plotly-1.31.2.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.5.0/d3.js"></script>
+        <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+        <script src="{{ url_for('static', filename='js/bonus.js') }}"></script>
+        <script src="{{ url_for('static', filename='js/app.js') }}"></script>
+
+    </body> -->
+
+
+
+</html>

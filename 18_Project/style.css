@@ -1,0 +1,33 @@
+body {
+    background-color: purple;
+}
+
+.col-md-12 {
+    background-color: #DDA0DD;
+    color: white;
+    margin: 15px;
+    padding: 15px;
+    border-radius: 15px;
+}
+
+.wrapper {
+    background-color: #DDA0DD;
+    color: white;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+.navbar-default {
+    background-color: purple;
+    border-radius: 15px;
+}
+
+.filter {
+    background-color: purple;
+}
+
+.btn {
+    background-color: purple;
+    border-radius: 15px;
+}
