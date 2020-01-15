@@ -5,8 +5,8 @@ body {
 .col-md-12 {
     background-color: #DDA0DD;
     color: white;
-    margin: 15px;
-    padding: 15px;
+    margin: 20px;
+    padding: 20px;
     border-radius: 15px;
 }
 
@@ -16,6 +16,18 @@ body {
     margin: 20px;
     padding: 20px;
     border-radius: 15px;
+}
+
+.row {
+    background-color: #DDA0DD;
+    color: white;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+.col-md-9 {
+    vertical-align: middle;
 }
 
 .navbar-default {
@@ -30,4 +42,7 @@ body {
 .btn {
     background-color: purple;
     border-radius: 15px;
+    font-size: 20px;
 }
+
+;

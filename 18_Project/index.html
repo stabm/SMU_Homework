@@ -14,9 +14,16 @@
 
 <body>
     <div class="container">
+        <!-- <div class="row"> -->
         <div class="row">
             <div class="col-md-12">
-                <h1><b><i>Wino Dino Dashboard</i></b></h1>
+                <div class="col-md-8">
+                    <h1 style="font-size: 60px; vertical-align: middle;"><b><i>Wino Dino Dashboard</i></b></h1>
+
+                </div>
+                <div class="col-md-3">
+                    <img src="/smugpug.png " width="200 " style="float: right;">
+                </div>
             </div>
         </div>
 
@@ -35,111 +42,114 @@
             <!-- add visualization code -->
 
 
-            <div class="container">
-                <div class="row margin-top-50">
-                    <div class="col-md-2">
-                        <aside class="filters">
-                            <form>
-                                <div class="form-group">
-                                    <ul class="list-group" id="filters">
-                                        <li class="filter list-group-item">
-                                            <label for="winery">Winery</label>
-                                            <input class="form-control" type="text" placeholder="Arbor Crest">
-                                        </li>
-                                        <li class="filter list-group-item">
-                                            <label for="variety">Variety</label>
-                                            <input class="form-control" type="text" placeholder="Gros Plant">
-                                        </li>
-                                        <li class="filter list-group-item">
-                                            <label for="price">Price Range</label>
-                                            <input class="form-control" type="text" placeholder="Cheap AF">
-                                        </li>
-                                        <li class="filter list-group-item">
-                                            <label for="points">Point Range</label>
-                                            <input class="form-control" type="text" placeholder="High AF">
-                                        </li>
-                                        <li class="filter list-group-item">
-                                            <label for="country">Country</label>
-                                            <input class="form-control" type="text" placeholder="Italy">
-                                        </li>
-                                        <li class="filter list-group-item">
-                                            <label for="province"></label>Province</label>
-                                            <input class="form-control" type="text" placeholder="Alsace">
-                                        </li>
-                                        <li class="filter list-group-item">
-                                            <button id="filter-btn" type="button" class="btn">Filter </button>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </form>
-                    </div>
+
+            <div class="row margin-top-50">
+                <div class="col-md-2">
+                    <aside class="filters">
+                        <form>
+                            <div class="form-group">
+                                <ul class="list-group" id="filters">
+                                    <li class="filter list-group-item">
+                                        <label for="winery">Winery</label>
+                                        <input class="form-control" type="text" placeholder="Arbor Crest">
+                                    </li>
+                                    <li class="filter list-group-item">
+                                        <label for="variety">Variety</label>
+                                        <input class="form-control" type="text" placeholder="Gros Plant">
+                                    </li>
+                                    <li class="filter list-group-item">
+                                        <label for="price">Price Range</label>
+                                        <input class="form-control" type="text" placeholder="Cheap AF">
+                                    </li>
+                                    <li class="filter list-group-item">
+                                        <label for="points">Point Range</label>
+                                        <input class="form-control" type="text" placeholder="High AF">
+                                    </li>
+                                    <li class="filter list-group-item">
+                                        <label for="country">Country</label>
+                                        <input class="form-control" type="text" placeholder="Italy">
+                                    </li>
+                                    <li class="filter list-group-item">
+                                        <label for="province">Province</label>
+                                        <input class="form-control" type="text" placeholder="Alsace">
+                                    </li>
+                                    <li class="filter list-group-item">
+                                        <p style="text-align: center;"><button id="filter-btn " type="button " class="btn ">Filter</button></p>
+                                    </li>
+                                </ul>
+                            </div>
+                        </form>
+                    </aside>
                 </div>
-                </aside>
-            </div>
-            <div class="col-md-10">
-                <div id="table-area" class="">
-                    <table id="ufo-table" class="table table-striped">
-                        <thead>
-                            <tr>
-                                <th class="table-head">Designation</th>
-                                <th class="table-head">Winery</th>
-                                <th class="table-head">Variety</th>
-                                <th class="table-head">Description</th>
-                                <th class="table-head">Price</th>
-                                <th class="table-head">Points</th>
-                                <th class="table-head">Country</th>
-                                <th class="table-head">Province</th>
-                            </tr>
-                        </thead>
-                        <tbody></tbody>
-                    </table>
+                <div class="col-md-10 ">
+                    <div id="table-area " class=" ">
+                        <table id="ufo-table " class="table table-striped ">
+                            <thead>
+                                <tr>
+                                    <th class="table-head ">Country</th>
+                                    <th class="table-head ">Description</th>
+                                    <th class="table-head ">Designation</th>
+                                    <th class="table-head ">Points</th>
+                                    <th class="table-head ">Price</th>
+                                    <th class="table-head ">Province</th>
+                                    <th class="table-head ">Region</th>
+                                    <th class="table-head ">Title</th>
+                                    <th class="table-head ">Variety</th>
+                                    <th class="table-head ">Winery</th>
+                                </tr>
+                            </thead>
+                            <tbody></tbody>
+                        </table>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
-    <img src="/smugpug.png" width="20">
-    </div>
-    <script src="static/js/data.js"></script>
-    <script src="static/js/app.js"></script>
-    <script src="https://cdn.plot.ly/plotly-1.31.2.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.5.0/d3.js"></script>
-    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
-    <script src="{{ url_for('static', filename='js/bonus.js') }}"></script>
-    <script src="{{ url_for('static', filename='js/app.js') }}"></script>
+    <script src="https://cdn.plot.ly/plotly-1.31.2.min.js "></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.5.0/d3.js "></script>
+    <script src="https://cdn.plot.ly/plotly-latest.min.js "></script>
+    <script src="app.js"></script>
+
+    <!-- <script>
+        d3.csv("wine_dataframe.csv", function(data) {
+            console.log(data)
+        });
+    </script> -->
+
 </body>
 
 <!-- <body>
 
     
 
-            <div class="row">
-                <div class="col-md-2">
-                    <div class="well">
+            <div class="row ">
+                <div class="col-md-2 ">
+                    <div class="well ">
                         <h5>Sample:</h5>
-                        <select id="selDataset" onchange="optionChanged(this.value)"></select>
+                        <select id="selDataset " onchange="optionChanged(this.value) "></select>
                     </div>
-                    <div class="panel panel-primary">
-                        <div class="panel-heading">
-                            <h3 class="panel-title">Sample MetaData</h3>
+                    <div class="panel panel-primary ">
+                        <div class="panel-heading ">
+                            <h3 class="panel-title ">Sample MetaData</h3>
                         </div>
-                        <div id="sample-metadata" class="panel-body"></div>
+                        <div id="sample-metadata " class="panel-body "></div>
                     </div>
                 </div>
-                <div class="col-md-5">
-                    <div id="pie"></div>
+                <div class="col-md-5 ">
+                    <div id="pie "></div>
                 </div>
-                <div class="col-md-5">
-                    <div id="gauge"></div>
+                <div class="col-md-5 ">
+                    <div id="gauge "></div>
                 </div>
             </div>
         </div>
         </div>
 
-        <script src="https://cdn.plot.ly/plotly-1.31.2.min.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.5.0/d3.js"></script>
-        <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
-        <script src="{{ url_for('static', filename='js/bonus.js') }}"></script>
-        <script src="{{ url_for('static', filename='js/app.js') }}"></script>
+        <script src="https://cdn.plot.ly/plotly-1.31.2.min.js "></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.5.0/d3.js "></script>
+        <script src="https://cdn.plot.ly/plotly-latest.min.js "></script>
+        <script src="{{ url_for( 'static', filename='js/bonus.js' ) }} "></script>
+        <script src="{{ url_for( 'static', filename='js/app.js' ) }} "></script>
 
     </body> -->
 
