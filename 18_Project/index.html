@@ -39,47 +39,50 @@
                 </div>
             </nav>
 
+            <div class="row">
+                <p>Right-click and open in new tab for full size image!</p>
+                <img src="winepoints.png" alt="Wine Points Trend by Price" width="485" height="300">
+                <img src="pricescatter.png" alt="Wine Point Scatter" width="485" height="300">
+                <img src="avg_price_by_country.png" alt="Average Price by Country" width="485" height="300">
+                <img src="variety_by_country.png" alt="Variety by Country" width="485" height="300">
+            </div>
             <!-- add visualization code -->
-
 
 
             <div class="row margin-top-50">
                 <div class="col-md-2">
-                    <aside class="filters">
-                        <form>
-                            <div class="form-group">
-                                <ul class="list-group" id="filters">
-                                    <li class="filter list-group-item">
-                                        <label for="winery">Winery</label>
-                                        <input class="form-control" type="text" placeholder="Arbor Crest">
-                                    </li>
-                                    <li class="filter list-group-item">
-                                        <label for="variety">Variety</label>
-                                        <input class="form-control" type="text" placeholder="Gros Plant">
-                                    </li>
-                                    <li class="filter list-group-item">
-                                        <label for="price">Price Range</label>
-                                        <input class="form-control" type="text" placeholder="Cheap AF">
-                                    </li>
-                                    <li class="filter list-group-item">
-                                        <label for="points">Point Range</label>
-                                        <input class="form-control" type="text" placeholder="High AF">
-                                    </li>
-                                    <li class="filter list-group-item">
-                                        <label for="country">Country</label>
-                                        <input class="form-control" type="text" placeholder="Italy">
-                                    </li>
-                                    <li class="filter list-group-item">
-                                        <label for="province">Province</label>
-                                        <input class="form-control" type="text" placeholder="Alsace">
-                                    </li>
-                                    <li class="filter list-group-item">
-                                        <p style="text-align: center;"><button id="filter-btn " type="button " class="btn ">Filter</button></p>
-                                    </li>
-                                </ul>
-                            </div>
-                        </form>
-                    </aside>
+                    <div class="form-group">
+                        <ul class="list-group" id="filters">
+                            <li class="filter list-group-item">
+                                <label for="winery">Winery</label>
+                                <input class="form-control" type="text" placeholder="Arbor Crest">
+                                <!-- <select id="selDataset" onchange="optionChanged(this.value)"><option>---</option></select> -->
+                            </li>
+                            <li class="filter list-group-item">
+                                <label for="variety">Variety</label>
+                                <input class="form-control" type="text" placeholder="Gros Plant">
+                            </li>
+                            <li class="filter list-group-item">
+                                <label for="price">Price Range</label>
+                                <input class="form-control" type="text" placeholder="Cheap AF">
+                            </li>
+                            <li class="filter list-group-item">
+                                <label for="points">Point Range</label>
+                                <input class="form-control" type="text" placeholder="High AF">
+                            </li>
+                            <li class="filter list-group-item">
+                                <label for="country">Country</label>
+                                <input id="countryInp" class="form-control" type="text" placeholder="Italy">
+                            </li>
+                            <li class="filter list-group-item">
+                                <label for="province">Province</label>
+                                <input class="form-control" type="text" placeholder="Alsace">
+                            </li>
+                            <li class="filter list-group-item">
+                                <p style="text-align: center;"><button id="filter-btn" type="button " class="btn ">Filter</button></p>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
                 <div class="col-md-10 ">
                     <div id="table-area " class=" ">
@@ -93,6 +96,7 @@
                                     <th class="table-head ">Price</th>
                                     <th class="table-head ">Province</th>
                                     <th class="table-head ">Region</th>
+                                    <th class="table-head ">Taster</th>
                                     <th class="table-head ">Title</th>
                                     <th class="table-head ">Variety</th>
                                     <th class="table-head ">Winery</th>
@@ -108,51 +112,9 @@
     <script src="https://cdn.plot.ly/plotly-1.31.2.min.js "></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.5.0/d3.js "></script>
     <script src="https://cdn.plot.ly/plotly-latest.min.js "></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="app.js"></script>
 
-    <!-- <script>
-        d3.csv("wine_dataframe.csv", function(data) {
-            console.log(data)
-        });
-    </script> -->
-
 </body>
-
-<!-- <body>
-
-    
-
-            <div class="row ">
-                <div class="col-md-2 ">
-                    <div class="well ">
-                        <h5>Sample:</h5>
-                        <select id="selDataset " onchange="optionChanged(this.value) "></select>
-                    </div>
-                    <div class="panel panel-primary ">
-                        <div class="panel-heading ">
-                            <h3 class="panel-title ">Sample MetaData</h3>
-                        </div>
-                        <div id="sample-metadata " class="panel-body "></div>
-                    </div>
-                </div>
-                <div class="col-md-5 ">
-                    <div id="pie "></div>
-                </div>
-                <div class="col-md-5 ">
-                    <div id="gauge "></div>
-                </div>
-            </div>
-        </div>
-        </div>
-
-        <script src="https://cdn.plot.ly/plotly-1.31.2.min.js "></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.5.0/d3.js "></script>
-        <script src="https://cdn.plot.ly/plotly-latest.min.js "></script>
-        <script src="{{ url_for( 'static', filename='js/bonus.js' ) }} "></script>
-        <script src="{{ url_for( 'static', filename='js/app.js' ) }} "></script>
-
-    </body> -->
-
-
 
 </html>
